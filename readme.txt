@@ -28,4 +28,6 @@ Git安装完成后的初始化
    6.回退到最新版本：git reset --hard 版本号
    7.使用命令：git reflog 获取到所有版本号
    8.现在的文件就是最新版本了。
-   
+三、 理解工作区与暂存区的区别
+   1.修改readme.txt ，新建文件test.txt。用git status查看状态
+   2.
