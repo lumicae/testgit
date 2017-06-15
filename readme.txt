@@ -14,4 +14,8 @@ Git安装完成后的初始化
    管理版本的，不要更改该文件夹
  2.把文件添加到版本库在testgit下创建文件readme.txt,输入一些内容并保存
    第一步： 使用命令 git add readme.txt添加到暂存区里面
-   第二部： 使用命令 git commit -m "readme.txt提交" 把文件提交到仓库 -m 后的字符串是提交的注释
+   第二步： 使用命令 git commit -m "readme.txt提交" 把文件提交到仓库 -m 后的字符串是提交的注释
+   第三步： 使用命令 git status 查看是否还文件未提交
+   第四步： 修改readme.txt文件内容，继续使用git status查看结果
+   第五步； 使用 git diff readme.txt查看readme.txt文件到底改了什么内容
+   第六步： 使用命令 git add readme.txt,git commit -m "增加内容第四五六步"
