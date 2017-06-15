@@ -20,4 +20,12 @@ Git安装完成后的初始化
    第五步； 使用 git diff readme.txt查看readme.txt文件到底改了什么内容
    第六步： 使用命令 git add readme.txt,git commit -m "增加内容第四五六步"
 二、版本回退
-   继续对readme.txt文件进行修改 ，然后add 和 commit
+   1.继续对readme.txt文件进行修改 ，然后add 和 commit
+   2.现在已经对readme.txt做了三次修改，可以使用命令 git log查看历史记录。显示的记录内容有：版本号、作者、时间、注释
+   3.使用命令 git log --pretty=oneline精简显示日志内容：版本号和注释
+   4.回退版本命令的两种方式：git rest --hard HEAD^,^表示回退到上个版本，如果回退到前n个版本的话，输入n个^; git reset --hard HEAD~100
+   5.可以使用命令 cat readme.txt查看readme.txt文件的内容
+   6.回退到最新版本：git reset --hard 版本号
+   7.使用命令：git reflog 获取到所有版本号
+   8.现在的文件就是最新版本了。
+   
