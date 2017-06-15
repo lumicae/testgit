@@ -4,7 +4,7 @@ Git安装完成后的初始化
 	    git config --global user.email "lumicae@sina.com"
   Git 是分布式版本控制系统， 所以需要填写用户名和邮箱作为一个标识
   git config --global 参数表示 本机中所有的Git仓库都会使用这个配置
-创建版本库
+一、创建版本库
    cd D:
    cd gitRepostiory
    mkdir testgit
@@ -19,3 +19,5 @@ Git安装完成后的初始化
    第四步： 修改readme.txt文件内容，继续使用git status查看结果
    第五步； 使用 git diff readme.txt查看readme.txt文件到底改了什么内容
    第六步： 使用命令 git add readme.txt,git commit -m "增加内容第四五六步"
+二、版本回退
+   继续对readme.txt文件进行修改 ，然后add 和 commit
