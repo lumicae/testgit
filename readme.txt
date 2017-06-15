@@ -29,5 +29,13 @@ Git安装完成后的初始化
    7.使用命令：git reflog 获取到所有版本号
    8.现在的文件就是最新版本了。
 三、 理解工作区与暂存区的区别
+    工作区：就是在电脑上看到的目录，比如testgit目录下的文件（.git隐藏目录版本库除外）。或者以后需要
+            再新建的目录文件等等都属于工作区范畴。
+
+    版本库（Repository）:工作区有一个隐藏目录.git，这个不属于工作区，这是版本库，里面存放了很多东西，
+                         最重要的是stage（暂存区）。Git为我们自动创建了第一个分支master，以及指向
+                         master的一个指针HEAD。
    1.修改readme.txt ，新建文件test.txt。用git status查看状态
-   2.
+   2.git add readme.txt, git add test.txt。一次性把两个文件都添加到暂存区，并用git status 查看状态
+   3.git commit -m "一次性提交所有文件，包括新建文件test.txt",git status
+四、git撤销修改和删除文件
